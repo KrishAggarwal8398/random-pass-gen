@@ -4,9 +4,57 @@ body{
 }
 
 .main{
-    max-width: 90%;
+    width: 600px;
     background: #1f2937;
     padding: 50px;
     margin: 40px;
-    height: 200px;
+    height: 500px;
+}
+
+span{
+    color: #10B981;
+    
+}
+
+h3{
+    color: lightgray;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    margin: 8px;
+}
+
+button{
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #10B981;
+    color: white;
+    border: 0;
+}
+
+.password{
+    width: 200px;
+    background-color: #273549;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.column-left, .column-right{
+    margin: 10px;
 }
